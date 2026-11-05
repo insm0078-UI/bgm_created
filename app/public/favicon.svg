@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="url(#bg)"/>
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="url(#shine)"/>
+  <g fill="#ffffff">
+    <rect x="232" y="452" width="64" height="120" rx="32"/>
+    <rect x="336" y="362" width="64" height="300" rx="32"/>
+    <rect x="440" y="252" width="64" height="520" rx="32"/>
+    <rect x="544" y="322" width="64" height="380" rx="32"/>
+    <rect x="648" y="402" width="64" height="220" rx="32"/>
+    <rect x="752" y="467" width="40" height="90" rx="20" opacity="0.85"/>
+  </g>
+</svg>
